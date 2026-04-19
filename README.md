@@ -12,6 +12,15 @@ Verkefnið notar gögn úr **LamaH-Ice** gagnasafninu:
 * **figures/**: Myndrit sem sýna langæislínur, leitni (trend) og flóðatburði.
 * **scripts/**: Jupyter Notebook (`greining.ipynb`) sem geymir allan kóðann.
 
+## Hvernig keyra má kóðann
+1. Gakktu úr skugga um að Python sé uppsett ásamt eftirfarandi söfnum: `pandas`, `numpy`, `matplotlib`, `scipy`.
+2. Sæktu (clone) þetta repository.
+3. Opnaðu `scripts/greining.ipynb` í Jupyter Notebook eða VS Code.
+4. Keyrðu alla reiti (Run All). Kóðinn les gögnin úr `data/` möppunni og vistar nýjar myndir og töflur sjálfkrafa.
+
+## Myndir í skýrslu
+Allar myndir sem birtast í skýrslunni eru búnar til í `scripts/greining.ipynb` og vistaðar í möppuna `figures/`.
+
 ## Helstu niðurstöður
 Kóðinn framkvæmir eftirfarandi greiningar:
 * Útreikning á meðalhita, meðalúrkomu og meðalrennsli.
